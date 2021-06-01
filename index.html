@@ -1,0 +1,41 @@
+<link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
+<html>
+  <head> 
+   <title>Local Weather</title>
+   <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+   <link rel="icon" href="./favicon.ico" type="image/x-icon">
+   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+   <link rel="stylesheet" href="./styling.css">   
+  </head> 
+ <body>
+   
+    <h1 class = "text-center" style = "color : white">Local Weather App</h1>
+     <hr>
+   
+     <p class = "text-center"><button class = "btn btn-primary" id = "measurement" style = "cursor : pointer">Click to convert to : °F</button></p>
+   
+      <div id = "city-country" class = "text-center ">
+       city , country 
+      </div>
+      <div id = "temperature" class = "text-center">temperature</div>
+      <div id = "weather-description" class = "text-center ">weather</div>    
+   
+  <div class="icon sun-shower animated-weather-icons" id = "icon">
+  <div class="cloud animated-weather-icons" id = "animated-weather1"></div> 
+  <div class="sun animated-weather-icons" id = "animated-weather2">
+    <div class="rays animated-weather-icons" id = "animated-weather3"></div>
+  </div>
+  <div class="rain animated-weather-icons" id = "animated-weather4"></div> 
+     
+</div>  
+   <p class = "contributions">Coded by<a href = "www.mywebsite" target = "_blank"><span style = "color : orange"> George Paul Avramescu</span></a></p>
+   <p class = "contributions" id = "weather-animations-author">Weather animations made by
+     <a href = "https://codepen.io/joshbader/pen/EjXgqr" target = "_blank">
+       <span style = "color : lightblue; font-size: 16px">Josh Bader</span>
+     </a> 
+   </p>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script  src="./script.js"></script>   
+ </body>   
+</html>
